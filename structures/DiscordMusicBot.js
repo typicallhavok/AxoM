@@ -166,13 +166,6 @@ class DiscordMusicBot extends Client {
           .get(player.textChannel)
           .send(TrackStartedEmbed);
         player.setNowplayingMessage(NowPlaying);
-      })
-      .on("queueEnd", (player) => {
-        let QueueEmbed = new MessageEmbed()
-          .setAuthor("The queue has ended", this.config.IconURL)
-          .setColor("RANDOM")
-          .setTimestamp();
-        client.channels.cache.get(player.textChannel).send(QueueEmbed);
       });
   }
 
