@@ -2,9 +2,9 @@ const { MessageEmbed } = require("discord.js");
 const { TrackUtils } = require("erela.js");
 const levels = {
     none: 0.0,
-    low: 0.2,
-    medium: 0.3,
-    high: 0.35,
+    low: 0.18,
+    medium: 0.4,
+    high: 1.0,
 };
 module.exports = {
     name: "bassboost",
