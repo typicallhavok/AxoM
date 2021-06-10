@@ -2,7 +2,7 @@ const { MessageEmbed } = require("discord.js");
 const { TrackUtils } = require("erela.js");
 const levels = {
     none: 0.0,
-    low: 0.18,
+    low: 0.14,
     medium: 0.4,
     high: 1.0,
 };
