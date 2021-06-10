@@ -20,7 +20,7 @@ module.exports = {
    Lavalink: {
     id: "Main",
     host: "lava.link",
-    port: 1234,
+    port: 50251,
     pass: "youshallnotpass", 
   },
   
