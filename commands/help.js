@@ -29,7 +29,7 @@ module.exports = {
               `Commands of ${client.user.username}`,
               client.config.IconURL
             )
-            .setColor("GREEN")
+            .setColor("RANDOM")
             .setFooter(
               `To get info of each command type ${
                 GuildDB ? GuildDB.prefix : client.config.DefaultPrefix
